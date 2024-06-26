@@ -1,0 +1,18 @@
+{
+  "name": "job-hound",
+  "version": "1.0.0",
+  "description": "Setup email notifications for job listings from any company career page.",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Anagh Mehran",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "@types/node": "^20.14.9"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.3",
+    "dotenv": "^16.4.5",
+    "user-agents": "^1.1.246"
+  }
+}
